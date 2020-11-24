@@ -1,0 +1,285 @@
+/*CSS INDEX JOGOS*/
+/*CLASSES E CORPO DA PÁGINA*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav_index{
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(243, 243, 243);
+}
+
+#nav_contato{
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(243, 243, 243);
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+/*NAV_MENU*/
+
+nav ul{
+    height: 80px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+}
+
+nav img{
+    position: absolute;
+    left: 80px;
+    top: 15px;
+    padding: 0px;
+    width: 70px;
+    height: 70px;
+}
+
+nav img{
+    animation: img 10s linear infinite;
+}
+
+@keyframes img {
+    0% {
+     transform: rotateZ(0deg);
+    }
+    100% {
+     transform: rotateZ(360deg);
+    }
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    padding: 30px 0 30px 0;
+    font-family: cursive;
+    color: black;
+}
+
+nav a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+
+/*SECTION 01*/
+section{
+    width: 100%;
+}
+
+.img01{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+
+/*SECTION 03 & 05*/
+#background_fixed{
+    height: 600px;
+    background-attachment: fixed;
+    background-image: url("img/img05.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+#background_fixed_s4{
+    height: 50px;
+    background-attachment: fixed;
+    background-image: url("img/img05.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+
+/*SECTION 02 - TABLE 01*/
+.table01 th{
+    height: 50px;
+}
+
+.table01 td{
+    width: 200px;
+    padding: 10px 20px 10px 20px;
+    text-align: justify;
+}
+
+.table01 img{
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+  
+}
+
+.table01 img:hover{
+    opacity: 0.7;
+}
+
+/*SECTION 04 - TABLE 02*/
+#background01{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+.th01{
+    font-size: 24px;
+    height: 120px;
+    font-family: cursive;
+}
+
+.th02{
+    height: 40px;
+    background-color:rgba(204, 204, 204, 0.329);
+}
+
+.table02 td{
+    padding: 40px 0px;
+    height: 80px;
+}
+
+.table02 img{
+    width: 150px;
+    height: 180px;
+}
+
+.table02 img:hover{
+    opacity: 0.7;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: rgba(204, 204, 204, 0.329);
+    height: 200px;
+}
+
+.table03{
+    height: 100px;
+}
+
+.table03 img{
+    width: 50px;
+    height: 50px;
+    padding: 25px 25px;
+}
+
+.table03 p{
+    display: block;
+    padding: 40px 0 40px 0;
+    font-family: cursive;
+}
+
+.table03 td{
+    display: inline-block;
+    height: 100px;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+/*FORMULARIO - CONTATO*/
+
+#table_contato{
+    display: block;
+    margin: auto;
+    height: 385px;
+}
+
+#table_contato td{
+    padding: 10px;
+    width: 500px;
+}
+
+
+form{
+    box-shadow: 1px 2px 10px black;
+    display: block;
+    margin: auto;
+    border: solid 1px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    width: 450px;
+    height: 300px;
+}
+
+form input{
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.f01{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.f01 label{
+    display: inline-block;
+    padding: 10px 0px;
+    width: 70px;
+    text-align: left;
+}
+
+.f01 input{
+    width: 300px;
+}
+
+.f02{
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.f02 label{
+    display: inline-block;
+    padding: 5px 3px 5px 5px;
+}
+
+.f03{
+    text-align: center;
+}
+
+#img_mario{
+    width: 200px;
+    height: 200px;
+}
+
+#img_luigi{
+    width: 200px;
+    height: 200px;
+}
+
+/*MENSAGEM - SUBMIT*/
+#mensagem{
+    margin-top: 100px;
+}
